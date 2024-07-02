@@ -1,0 +1,14 @@
+@import 'global.css';
+@import 'responsive.css';
+@import 'header.css';
+@import 'homepage.css';
+
+.page {
+  margin: 0 !important;
+}
+
+.page-container{
+  width: 40%;
+  margin: 0 auto;
+}
+

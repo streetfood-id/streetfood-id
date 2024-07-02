@@ -1,0 +1,88 @@
+.card-wrapper {
+    gap: 20px;
+}
+
+.card-item {
+    grid-template-columns: 1fr;
+    align-items: center;
+    border: 1px solid var(--color-white);
+    padding: 20px;
+    /* gap: 20px; */
+    transition: all .3s linear;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-item:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-weight: 600;
+    transition: all .3s linear;
+}
+
+.card-item .icon-wrapper {
+    position: absolute;
+    width: 30%;
+}
+
+.card-item .icon-streetfood {
+    stroke: var(--color-white);
+    opacity: .5;
+    transition: all .3s linear;
+}
+
+.card-item:hover .icon-streetfood {
+    transform: scale(1.2);
+    opacity: .8;
+    transition: all .3s linear;
+}
+
+.card-item .icon-streetfood:before {
+    font-size: 22px;
+}
+
+.card-item .label-wrapper {
+    z-index: 20;
+}
+
+.card-item .icon-streetfood.icon-wa {
+    width: 60%;
+    transform: rotate(-20deg);
+}
+
+.card-item:hover .icon-streetfood.icon-wa {
+    background: var(--color-black);
+    border-radius: 50px;
+    transform: scale(1.2) rotate(-10deg);
+}
+
+
+.card-item .icon-streetfood.icon-menu {
+    width: 50%;
+    background: var(--color-white);
+    transform: rotate(-20deg);
+    padding: 20px;
+}
+
+.card-item:hover .icon-streetfood.icon-menu {
+    /* background: var(--color-black); */
+    transform: scale(1.2) rotate(-10deg);
+}
+
+.card-item .icon-streetfood.icon-saran {
+    padding: 20px;
+    width: 40%;
+}
+
+.card-item:hover .icon-streetfood.icon-online {
+    filter: invert(100%);
+}
+
+.card-item .icon-streetfood.icon-online {
+    transform: rotate(-20deg);
+}
+
+.card-item:hover .icon-streetfood.icon-online {
+    transform: scale(1.2) rotate(-10deg);
+}

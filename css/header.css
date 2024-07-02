@@ -1,0 +1,38 @@
+.site-header {
+  z-index: 999;
+  margin-top: 10vh;
+  padding-bottom: 50px;
+}
+
+.site-header .image-wrapper {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.site-header .image-wrapper img {
+  border-radius: 50%;
+}
+
+.site-header .brand-name-wrapper {
+  text-align: center;
+}
+
+.site-header .brand-name {
+  font-family: var(--font-brand);
+  color: var(--color-red);
+  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #FFF;
+  font-size: 35px;
+}
+
+.site-header .brand-location{
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.site-header .brand-tagline{
+  padding: 30px 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
